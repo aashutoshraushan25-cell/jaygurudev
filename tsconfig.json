@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["frontend/src", "backend/src"],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "backend/node_modules",
+    "frontend/node_modules",
+    "dist",
+    "frontend/dist"
+  ]
+}

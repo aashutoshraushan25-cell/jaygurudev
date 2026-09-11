@@ -1,0 +1,18 @@
+{
+  "name": "jay-guru-dev-portal",
+  "version": "1.0.0",
+  "description": "Jay Guru Dev Satsang Management Portal",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "jay-guru-dev",
+    "satsang",
+    "portal"
+  ],
+  "author": "",
+  "license": "ISC"
+}
